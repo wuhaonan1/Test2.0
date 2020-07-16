@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script src="./libs/show/show.js"></script>
+    <script src="./libs/scrollReveal/scrollreveal.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="./libs/glide/glide.core.min.css" />
+    <link rel="stylesheet" href="./libs/glide/glide.theme.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>名侦探桌游店</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="logo">名侦探桌游店</div>
+        <nav>
+          <a href="./index.html">首页</a>
+          <a href="#showcases">游戏展示</a>
+          <a href="#service">服务流程</a>
+          <a href="#team-intro">团队介绍</a>
+          <a href="./news.html">公司动态</a>
+          <i class="fas fa-search"></i>
+        </nav>
+        <div class="burger">
+          <div class="burger-line1"></div>
+          <div class="burger-line2"></div>
+          <div class="burger-line3"></div>
+        </div>
+      </header>
+      <div id="home" class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <div class="glide__slides">
+            <div class="glide__slide">
+              <div class="slide-caption">
+                <h1>名侦探桌游店</h1>
+                <h3>
+                  你够细心吗？你能破解谜题吗？想成为名侦探吗？请来到名侦探桌游店，开始你的解谜之旅！
+                </h3>
+                <button class="explore-btn">探索更多</button>
+              </div>
+              <div class="backdrop"></div>
+              <img src="./images/zhentan1.jpg" alt="" />
+            </div>
+            <div class="glide__slide">
+              <div class="slide-caption left">
+                <h1>凶手是谁？丢失的宝藏在哪？谁才是我失踪的恋人？剧本杀角色扮演，你独一无二的选择！</h1>
+                <h3>
+                  《剧本杀》是一款以个人为中心的辅助游戏推理的应用。每名玩家都有自己的剧本，玩家需将自己代入到剧本角色中，同时辅助玩家进行剧本杀，引导剧本杀流程，同时期间不断收集线索，与其他玩家进行交流，认真推理最终找到真相。
+                </h3>
+                <button class="explore-btn">探索更多</button>
+              </div>
+              <div class="backdrop"></div>
+              <img src="./images/juben1.jpeg" alt=""></img>
+            </div>
+            <div class="glide__slide">
+              <div class="slide-caption left">
+                <h1>清晰的逻辑，缜密的思维，流畅的表达。如果你具备这些，请参与狼人杀吧！</h1>
+                <h3>
+                  一局狼人杀游戏一般由十二名玩家组成，他们将分属于游戏中两个对立的阵营：狼人阵营和好人阵营。好人阵营人数较多但互不认识，以放逐投票和角色技能为主要手段，需要消灭所有隐藏在人群中的狼人以获取最后的胜利；而人数较少互相认识的狼人们则隐匿于他们之间，依靠夜晚猎杀好人和白天诱导好人错误投票为获胜手段。
+                </h3>
+                <button class="explore-btn">探索更多</button>
+              </div>
+              <div class="backdrop"></div>
+              <img src="./images/wolf4.jpg" alt=""></img>
+            </div>
+          </div>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            <
+          </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+            >
+          </button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+          <button class="glide__bullet" data-glide-dir="=2"></button>
+        </div>
+      </div>
+      <div class="content-wrapper">
+        <section id="service" class="service">
+          <h2 class="title1">服务流程</h2>
+          <p class="intro">
+            先通过网站进行预约，预约成功即可到店与小伙伴们参与桌游
+          </p>
+          <div class="services">
+            <div class="service-item">
+              <i class="fas fa-comments"></i>
+              <h2 class="service-title">预约登记</h2>
+              <p class="service-content">
+                客户需通过网站提前进行预约
+              </p>
+            </div>
+           <div class="service-item">
+              <i class="fas fa-user"></i>
+              <h2 class="service-title">玩法教学</h2>
+              <p class="service-content">
+                给客服发送选择桌游的玩法规则
+              </p>
+            </div>
+           <div class="service-item">
+              <i class="fas fa-car"></i>
+              <h2 class="service-title">到店参与</h2>
+              <p class="service-content">
+                到预约时间，客户来到桌游店参与桌游
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="showcases" class="showcases section-bg">
+          <h2 class="title1">游戏展示</h2>
+          <div class="filter-btns">
+            <button class="filter-btn active" data-filter="*">全部</button>
+            <button class="filter-btn" data-filter=".drama">剧本杀</button>
+            <button class="filter-btn" data-filter=".wolf">狼人杀</button>
+            <button class="filter-btn" data-filter=".sanguo">三国杀</button>
+            <button class="filter-btn" data-filter=".mishi">密室逃脱</button>
+          </div>
+          <div class="cases">
+            <div class="case-item drama">
+              <img
+                src="./images/juben1.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="case-item drama">
+              <img
+                src="./images/juben2.png"
+                alt=""
+              />
+            </div>
+            <div class="case-item drama">
+              <img
+                src="./images/juben3.png"
+                alt=""
+              />
+            </div>
+            <div class="case-item drama">
+              <img
+                src="./images/juben4.png"
+                alt=""
+              />
+            </div>
+            <div class="case-item wolf">
+              <img
+                src="./images/wolf4.jpg"
+                alt=""
+              />
+            </div>
+            <div class="case-item wolf">
+              <img
+                src="./images/wolf1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="case-item wolf">
+              <img
+                src="./images/wolf2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="case-item wolf">
+              <img
+                src="./images/wolf3.jpg"
+                alt=""
+              />
+            </div> 
+            <div class="case-item sanguo">
+              <img
+                src="./images/sanguo1.jpg"
+                alt=""
+              /> 
+            </div>
+              <div class="case-item sanguo">
+                <img
+                  src="./images/sanguo2.jpg"
+                  alt=""
+                />
+              </div>   
+                <div class="case-item sanguo">
+                  <img
+                    src="./images/sanguo3.jpg"
+                    alt=""
+                  />
+                </div>   
+                <div class="case-item sanguo">
+                  <img
+                    src="./images/sanguo4.jpg"
+                    alt=""
+                  /> 
+                </div>   
+                <div class="case-item mishi">
+                  <img
+                    src="./images/mishi1.jpg"
+                    alt=""
+                  />
+                </div>   
+                <div class="case-item mishi">
+                  <img
+                    src="./images/mishi2.jpg"
+                    alt=""
+                  />
+                </div>   
+                <div class="case-item mishi">
+                  <img
+                    src="./images/mishi3.jpg"
+                    alt=""
+                  />
+                </div>   
+                <div class="case-item mishi">
+                  <img
+                    src="./images/mishi4.jpg"
+                    alt=""
+                  />
+            </div>
+          </div>
+        </section>
+        
+        <section class="data-section">
+          <div class="data-piece">
+            <i class="fas fa-user"></i>
+            <div class="num">25</div>
+            <div class="data-desc">名员工</div>
+          </div>
+          <div class="data-piece">
+            <i class="fas fa-male"></i>
+            <div class="num">520</div>
+            <div class="data-desc">名会员</div>
+          </div>
+          <div class="data-piece">
+            <i class="fas fa-gamepad"></i>
+            <div class="num">113</div>
+            <div class="data-desc">款桌游</div>
+          </div>
+          <div class="data-piece">
+            <i class="fas fa-phone"></i>
+            <div class="num">1128</div>
+            <div class="data-desc">次预约</div>
+          </div>
+        </section>
+        <section id="team-intro" class="team-intro section-bg">
+          <h2 class="title1">团队介绍</h2>
+          <div class="team-members">
+            <div class="team-member">
+              <div class="profile-image">
+                <img src="./images/zero.png" alt="" />
+              </div>
+              <h4 class="name">降谷零</h4>
+              <p class="position">店长</p>
+              <ul class="social-links">
+                <li>
+                  <a href=""><i class="fab fa-weixin"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-qq"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-twitter-square"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-member">
+              <div class="profile-image">
+                <img
+                  src="./images/one.jpg"
+                  alt=""
+                />
+              </div>
+              <h4 class="name">工藤新一</h4>
+              <p class="position">副店长</p>
+              <ul class="social-links">
+                <li>
+                  <a href=""><i class="fab fa-weixin"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-qq"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-twitter-square"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-member">
+              <div class="profile-image">
+                <img
+                  src="./images/fubu.png"
+                  alt=""
+                />
+              </div>
+              <h4 class="name">服部平次</h4>
+              <p class="position">剧本杀主持人</p>
+              <ul class="social-links">
+                <li>
+                  <a href=""><i class="fab fa-weixin"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-qq"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-twitter-square"></i></a>
+                </li>
+                
+              </ul>
+            </div>
+            <div class="team-member">
+              <div class="profile-image">
+                <img src="./images/black.jpg" alt="" />
+              </div>
+              <h4 class="name">黑羽快斗</h4>
+              <p class="position">解谜人</p>
+              <ul class="social-links">
+                <li>
+                  <a href=""><i class="fab fa-weixin"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-qq"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-twitter-square"></i></a>
+                </li>
+               
+              </ul>
+            </div>
+          </div>
+        </section>
+        
+      </div>
+      <footer>
+        <div class="footer-menus">
+          <div class="contact-us">
+            <p class="menu-title">联系我们</p>
+            <p>地址：中国福建省福州市闽侯县闽江学院</p>
+            <p>电话：18085959898</p>
+            <p>传真：18085959898</p>
+            <p>电子邮箱：1063256708@qq.com</p>
+          </div>
+          <div class="service-menu footer-menu">
+            <p class="menu-title">服务概览</p>
+            <ul class="menu-items">
+              <li><a href="#">桌游预约</a></li>
+              <li><a href="#">玩法教学</a></li>
+              <li><a href="#">游戏陪玩</a></li>
+              <li><a href="#">谜题探索</a></li>
+            </ul>
+          </div>
+          <div class="service-menu footer-menu">
+            <p class="menu-title">桌游官网</p>
+            <ul class="menu-items">
+              <li><a href="#">桌面网站</a></li>
+              <li><a href="#">移动网站</a></li>
+              <li><a href="#">软件App</a></li>
+            </ul>
+          </div>
+          <div class="service-menu footer-menu">
+            <p class="menu-title">公司动态</p>
+            <ul class="menu-items">
+              <li><a href="#">信息公开</a></li>
+              <li><a href="#">最近新闻</a></li>
+              <li><a href="#">最新博客</a></li>
+            </ul>
+          </div>
+          <div class="service-menu footer-menu">
+            <p class="menu-title">帮助与支持</p>
+            <ul class="menu-items">
+              <li><a href="#">帮助中心</a></li>
+              <li><a href="#">联系客服</a></li>
+              <li><a href="#">文档资源</a></li>
+            </ul>
+          </div>
+          <p class="icp-info">闽ICP备130303156号</p>
+          <p class="rights">
+            &copy; 名侦探桌游店 版权所有
+          </p>
+          <div class="scrollToTop">
+            <a href="#home"><i class="fas fa-chevron-up"></i></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./libs/isotope/isotope.pkgd.min.js"></script>
+    <script src="./libs/anime/anime.min.js"></script>
+    <script src="./libs/glide/glide.min.js"></script>
+    <script src="./libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
